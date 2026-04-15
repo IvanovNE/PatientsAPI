@@ -1,0 +1,6 @@
+{
+  "PatientsAPI.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Application",
+  "PatientsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI",
+  "PatientsAPI.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Domain",
+  "PatientsAPI.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Infrastructure"
+}

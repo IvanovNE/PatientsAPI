@@ -1,0 +1,12 @@
+C:\Users\adm\Documents\GitHub\PatientsAPI\PatientsAPI.Domain\bin\Debug\net6.0\PatientsAPI.Domain.deps.json
+C:\Users\adm\Documents\GitHub\PatientsAPI\PatientsAPI.Domain\bin\Debug\net6.0\PatientsAPI.Domain.dll
+C:\Users\adm\Documents\GitHub\PatientsAPI\PatientsAPI.Domain\bin\Debug\net6.0\PatientsAPI.Domain.pdb
+C:\Users\adm\Documents\GitHub\PatientsAPI\PatientsAPI.Domain\obj\Debug\net6.0\PatientsAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adm\Documents\GitHub\PatientsAPI\PatientsAPI.Domain\obj\Debug\net6.0\PatientsAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\adm\Documents\GitHub\PatientsAPI\PatientsAPI.Domain\obj\Debug\net6.0\PatientsAPI.Domain.AssemblyInfo.cs
+C:\Users\adm\Documents\GitHub\PatientsAPI\PatientsAPI.Domain\obj\Debug\net6.0\PatientsAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\adm\Documents\GitHub\PatientsAPI\PatientsAPI.Domain\obj\Debug\net6.0\PatientsAPI.Domain.sourcelink.json
+C:\Users\adm\Documents\GitHub\PatientsAPI\PatientsAPI.Domain\obj\Debug\net6.0\PatientsAPI.Domain.dll
+C:\Users\adm\Documents\GitHub\PatientsAPI\PatientsAPI.Domain\obj\Debug\net6.0\refint\PatientsAPI.Domain.dll
+C:\Users\adm\Documents\GitHub\PatientsAPI\PatientsAPI.Domain\obj\Debug\net6.0\PatientsAPI.Domain.pdb
+C:\Users\adm\Documents\GitHub\PatientsAPI\PatientsAPI.Domain\obj\Debug\net6.0\ref\PatientsAPI.Domain.dll

@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="./PatientsAPI.Application/PatientsAPI.Application.csproj" />
+  <Project Path="./PatientsAPI.Domain/PatientsAPI.Domain.csproj" />
+  <Project Path="./PatientsAPI.Infrastructure/PatientsAPI.Infrastructure.csproj" Id="36000517-d02a-4959-93ab-3e43d808f925" />
+  <Project Path="./PatientsAPI.Tests/PatientsAPI.Tests.csproj" />
+  <Project Path="./SeedConsoleApp/SeedConsoleApp.csproj" Id="420242f5-33a8-4ea4-9b63-63f2b5f14f84" />
+  <Project Path="./PatientsAPI/PatientsAPI.csproj" />
+</Solution>

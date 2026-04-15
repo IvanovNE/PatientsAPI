@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2fkregQLAAs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI-old\\PatientsAPI.Application\\PatientsAPI.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adm\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

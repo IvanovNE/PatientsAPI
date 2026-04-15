@@ -1,0 +1,602 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{420242F5-33A8-4EA4-9B63-63F2B5F14F84}|..\\SeedConsoleApp\\SeedConsoleApp.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\seedconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{420242F5-33A8-4EA4-9B63-63F2B5F14F84}|..\\SeedConsoleApp\\SeedConsoleApp.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\seedconsoleapp\\patientgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A7475C8-7A4C-481E-D0C5-EDE2B1380A94}|..\\PatientsAPI.Tests\\PatientsAPI.Tests.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi.tests\\controllers\\patientscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36000517-D02A-4959-93AB-3E43D808F925}|..\\PatientsAPI.Infrastructure\\PatientsAPI.Infrastructure.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi.infrastructure\\fhirdateparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36000517-D02A-4959-93AB-3E43D808F925}|..\\PatientsAPI.Infrastructure\\PatientsAPI.Infrastructure.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36000517-D02A-4959-93AB-3E43D808F925}|..\\PatientsAPI.Infrastructure\\PatientsAPI.Infrastructure.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225419E-2299-0A74-9DE4-415EB9BE03D4}|..\\PatientsAPI.Domain\\PatientsAPI.Domain.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi.domain\\valueobjects\\humanname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225419E-2299-0A74-9DE4-415EB9BE03D4}|..\\PatientsAPI.Domain\\PatientsAPI.Domain.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi.domain\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A7475C8-7A4C-481E-D0C5-EDE2B1380A94}|..\\PatientsAPI.Tests\\PatientsAPI.Tests.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi.tests\\services\\patientservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A7475C8-7A4C-481E-D0C5-EDE2B1380A94}|..\\PatientsAPI.Tests\\PatientsAPI.Tests.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi.tests\\helpers\\testdatafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36000517-D02A-4959-93AB-3E43D808F925}|..\\PatientsAPI.Infrastructure\\PatientsAPI.Infrastructure.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi.infrastructure\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225419E-2299-0A74-9DE4-415EB9BE03D4}|..\\PatientsAPI.Domain\\PatientsAPI.Domain.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi.domain\\enums\\humannameuse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225419E-2299-0A74-9DE4-415EB9BE03D4}|..\\PatientsAPI.Domain\\PatientsAPI.Domain.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi.domain\\enums\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225419E-2299-0A74-9DE4-415EB9BE03D4}|..\\PatientsAPI.Domain\\PatientsAPI.Domain.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi.domain\\common\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225419E-2299-0A74-9DE4-415EB9BE03D4}|..\\PatientsAPI.Domain\\PatientsAPI.Domain.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1BB9D1-19C0-7636-3CF4-D550F53555D9}|..\\PatientsAPI.Application\\PatientsAPI.Application.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1BB9D1-19C0-7636-3CF4-D550F53555D9}|..\\PatientsAPI.Application\\PatientsAPI.Application.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi.application\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1BB9D1-19C0-7636-3CF4-D550F53555D9}|..\\PatientsAPI.Application\\PatientsAPI.Application.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi.application\\dto\\updatepatientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1BB9D1-19C0-7636-3CF4-D550F53555D9}|..\\PatientsAPI.Application\\PatientsAPI.Application.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi.application\\dto\\patientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1BB9D1-19C0-7636-3CF4-D550F53555D9}|..\\PatientsAPI.Application\\PatientsAPI.Application.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi.application\\dto\\createpatientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1BB9D1-19C0-7636-3CF4-D550F53555D9}|..\\PatientsAPI.Application\\PatientsAPI.Application.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi.application\\common\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1BB9D1-19C0-7636-3CF4-D550F53555D9}|..\\PatientsAPI.Application\\PatientsAPI.Application.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi.application\\common\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1BB9D1-19C0-7636-3CF4-D550F53555D9}|..\\PatientsAPI.Application\\PatientsAPI.Application.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi.application\\common\\interfaces\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{420242F5-33A8-4EA4-9B63-63F2B5F14F84}|..\\SeedConsoleApp\\SeedConsoleApp.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\seedconsoleapp\\openapis\\swagger.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{420242F5-33A8-4EA4-9B63-63F2B5F14F84}|..\\SeedConsoleApp\\SeedConsoleApp.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\seedconsoleapp\\obj\\swaggerclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{420242F5-33A8-4EA4-9B63-63F2B5F14F84}|..\\SeedConsoleApp\\SeedConsoleApp.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\seedconsoleapp\\seedconsoleapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A7475C8-7A4C-481E-D0C5-EDE2B1380A94}|..\\PatientsAPI.Tests\\PatientsAPI.Tests.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi.tests\\patientsapi.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1BB9D1-19C0-7636-3CF4-D550F53555D9}|..\\PatientsAPI.Application\\PatientsAPI.Application.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi.application\\patientsapi.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57401AA8-56BF-6011-7C23-D26B35D15ED5}|PatientsAPI.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57401AA8-56BF-6011-7C23-D26B35D15ED5}|PatientsAPI.csproj|solutionrelative:controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57401AA8-56BF-6011-7C23-D26B35D15ED5}|PatientsAPI.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi\\apiexceptionfilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57401AA8-56BF-6011-7C23-D26B35D15ED5}|PatientsAPI.csproj|solutionrelative:apiexceptionfilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57401AA8-56BF-6011-7C23-D26B35D15ED5}|PatientsAPI.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi\\swaggerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57401AA8-56BF-6011-7C23-D26B35D15ED5}|PatientsAPI.csproj|solutionrelative:swaggerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57401AA8-56BF-6011-7C23-D26B35D15ED5}|PatientsAPI.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57401AA8-56BF-6011-7C23-D26B35D15ED5}|PatientsAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36000517-D02A-4959-93AB-3E43D808F925}|..\\PatientsAPI.Infrastructure\\PatientsAPI.Infrastructure.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi.infrastructure\\migrations\\20260415120559_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36000517-D02A-4959-93AB-3E43D808F925}|..\\PatientsAPI.Infrastructure\\PatientsAPI.Infrastructure.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi.infrastructure\\patientsapi.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57401AA8-56BF-6011-7C23-D26B35D15ED5}|PatientsAPI.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{57401AA8-56BF-6011-7C23-D26B35D15ED5}|PatientsAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225419E-2299-0A74-9DE4-415EB9BE03D4}|..\\PatientsAPI.Domain\\PatientsAPI.Domain.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi.domain\\patientsapi.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57401AA8-56BF-6011-7C23-D26B35D15ED5}|PatientsAPI.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{57401AA8-56BF-6011-7C23-D26B35D15ED5}|PatientsAPI.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57401AA8-56BF-6011-7C23-D26B35D15ED5}|PatientsAPI.csproj|c:\\users\\adm\\documents\\github\\patientsapi\\patientsapi\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57401AA8-56BF-6011-7C23-D26B35D15ED5}|PatientsAPI.csproj|solutionrelative:exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PatientServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Tests\\Services\\PatientServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\PatientsAPI.Tests\\Services\\PatientServiceTests.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Tests\\Services\\PatientServiceTests.cs",
+              "RelativeToolTip": "..\\PatientsAPI.Tests\\Services\\PatientServiceTests.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwFEBAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T12:15:16.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PatientGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\SeedConsoleApp\\PatientGenerator.cs",
+              "RelativeDocumentMoniker": "..\\SeedConsoleApp\\PatientGenerator.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\SeedConsoleApp\\PatientGenerator.cs",
+              "RelativeToolTip": "..\\SeedConsoleApp\\PatientGenerator.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAkwBwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T12:44:03.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\SeedConsoleApp\\Program.cs",
+              "RelativeDocumentMoniker": "..\\SeedConsoleApp\\Program.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\SeedConsoleApp\\Program.cs",
+              "RelativeToolTip": "..\\SeedConsoleApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T12:26:45.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Domain\\Entities\\Patient.cs",
+              "RelativeDocumentMoniker": "..\\PatientsAPI.Domain\\Entities\\Patient.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Domain\\Entities\\Patient.cs",
+              "RelativeToolTip": "..\\PatientsAPI.Domain\\Entities\\Patient.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T12:29:06.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HumanName.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Domain\\ValueObjects\\HumanName.cs",
+              "RelativeDocumentMoniker": "..\\PatientsAPI.Domain\\ValueObjects\\HumanName.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Domain\\ValueObjects\\HumanName.cs",
+              "RelativeToolTip": "..\\PatientsAPI.Domain\\ValueObjects\\HumanName.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T11:58:08.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Infrastructure\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\PatientsAPI.Infrastructure\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Infrastructure\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\PatientsAPI.Infrastructure\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T21:48:52.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "..\\PatientsAPI.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "..\\PatientsAPI.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T09:31:50.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FhirDateParser.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Infrastructure\\FhirDateParser.cs",
+              "RelativeDocumentMoniker": "..\\PatientsAPI.Infrastructure\\FhirDateParser.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Infrastructure\\FhirDateParser.cs",
+              "RelativeToolTip": "..\\PatientsAPI.Infrastructure\\FhirDateParser.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAcwFcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T22:22:04.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PatientsControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Tests\\Controllers\\PatientsControllerTests.cs",
+              "RelativeDocumentMoniker": "..\\PatientsAPI.Tests\\Controllers\\PatientsControllerTests.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Tests\\Controllers\\PatientsControllerTests.cs",
+              "RelativeToolTip": "..\\PatientsAPI.Tests\\Controllers\\PatientsControllerTests.cs",
+              "ViewState": "AgIAANUAAAAAAAAAAAAAwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T12:14:56.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TestDataFactory.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Tests\\Helpers\\TestDataFactory.cs",
+              "RelativeDocumentMoniker": "..\\PatientsAPI.Tests\\Helpers\\TestDataFactory.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Tests\\Helpers\\TestDataFactory.cs",
+              "RelativeToolTip": "..\\PatientsAPI.Tests\\Helpers\\TestDataFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T12:15:57.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Infrastructure\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "..\\PatientsAPI.Infrastructure\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Infrastructure\\Repositories\\Repository.cs",
+              "RelativeToolTip": "..\\PatientsAPI.Infrastructure\\Repositories\\Repository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwDkAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T22:09:39.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HumanNameUse.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Domain\\Enums\\HumanNameUse.cs",
+              "RelativeDocumentMoniker": "..\\PatientsAPI.Domain\\Enums\\HumanNameUse.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Domain\\Enums\\HumanNameUse.cs",
+              "RelativeToolTip": "..\\PatientsAPI.Domain\\Enums\\HumanNameUse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T12:15:08.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Gender.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Domain\\Enums\\Gender.cs",
+              "RelativeDocumentMoniker": "..\\PatientsAPI.Domain\\Enums\\Gender.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Domain\\Enums\\Gender.cs",
+              "RelativeToolTip": "..\\PatientsAPI.Domain\\Enums\\Gender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T12:03:44.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DomainException.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Domain\\Common\\DomainException.cs",
+              "RelativeDocumentMoniker": "..\\PatientsAPI.Domain\\Common\\DomainException.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Domain\\Common\\DomainException.cs",
+              "RelativeToolTip": "..\\PatientsAPI.Domain\\Common\\DomainException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T12:29:42.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Domain\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "..\\PatientsAPI.Domain\\Common\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Domain\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "..\\PatientsAPI.Domain\\Common\\BaseEntity.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T11:53:44.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "..\\PatientsAPI.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "..\\PatientsAPI.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T13:41:10.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PatientService.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Application\\Services\\PatientService.cs",
+              "RelativeDocumentMoniker": "..\\PatientsAPI.Application\\Services\\PatientService.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Application\\Services\\PatientService.cs",
+              "RelativeToolTip": "..\\PatientsAPI.Application\\Services\\PatientService.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAYwKEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T13:16:02.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UpdatePatientDto.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Application\\DTO\\UpdatePatientDto.cs",
+              "RelativeDocumentMoniker": "..\\PatientsAPI.Application\\DTO\\UpdatePatientDto.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Application\\DTO\\UpdatePatientDto.cs",
+              "RelativeToolTip": "..\\PatientsAPI.Application\\DTO\\UpdatePatientDto.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T13:14:58.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PatientDto.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Application\\DTO\\PatientDto.cs",
+              "RelativeDocumentMoniker": "..\\PatientsAPI.Application\\DTO\\PatientDto.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Application\\DTO\\PatientDto.cs",
+              "RelativeToolTip": "..\\PatientsAPI.Application\\DTO\\PatientDto.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T13:08:37.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreatePatientDto.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Application\\DTO\\CreatePatientDto.cs",
+              "RelativeDocumentMoniker": "..\\PatientsAPI.Application\\DTO\\CreatePatientDto.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Application\\DTO\\CreatePatientDto.cs",
+              "RelativeToolTip": "..\\PatientsAPI.Application\\DTO\\CreatePatientDto.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T13:09:21.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Application\\Common\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "..\\PatientsAPI.Application\\Common\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Application\\Common\\NotFoundException.cs",
+              "RelativeToolTip": "..\\PatientsAPI.Application\\Common\\NotFoundException.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T13:23:36.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Application\\Common\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "..\\PatientsAPI.Application\\Common\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Application\\Common\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "..\\PatientsAPI.Application\\Common\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA9wBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T13:22:16.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IPatientService.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Application\\Common\\Interfaces\\IPatientService.cs",
+              "RelativeDocumentMoniker": "..\\PatientsAPI.Application\\Common\\Interfaces\\IPatientService.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Application\\Common\\Interfaces\\IPatientService.cs",
+              "RelativeToolTip": "..\\PatientsAPI.Application\\Common\\Interfaces\\IPatientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T13:04:06.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "swagger.json",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\SeedConsoleApp\\OpenAPIs\\swagger.json",
+              "RelativeDocumentMoniker": "..\\SeedConsoleApp\\OpenAPIs\\swagger.json",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\SeedConsoleApp\\OpenAPIs\\swagger.json",
+              "RelativeToolTip": "..\\SeedConsoleApp\\OpenAPIs\\swagger.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-15T12:30:18.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "swaggerClient.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\SeedConsoleApp\\obj\\swaggerClient.cs",
+              "RelativeDocumentMoniker": "..\\SeedConsoleApp\\obj\\swaggerClient.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\SeedConsoleApp\\obj\\swaggerClient.cs",
+              "RelativeToolTip": "..\\SeedConsoleApp\\obj\\swaggerClient.cs",
+              "ViewState": "AgIAAD8DAAAAAAAAAAAmwFsDAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T12:42:23.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SeedConsoleApp.csproj",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\SeedConsoleApp\\SeedConsoleApp.csproj",
+              "RelativeDocumentMoniker": "..\\SeedConsoleApp\\SeedConsoleApp.csproj",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\SeedConsoleApp\\SeedConsoleApp.csproj",
+              "RelativeToolTip": "..\\SeedConsoleApp\\SeedConsoleApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-15T12:36:45.833Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PatientsAPI.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Tests\\PatientsAPI.Tests.csproj",
+              "RelativeDocumentMoniker": "..\\PatientsAPI.Tests\\PatientsAPI.Tests.csproj",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Tests\\PatientsAPI.Tests.csproj",
+              "RelativeToolTip": "..\\PatientsAPI.Tests\\PatientsAPI.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-15T12:15:00.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20260415120559_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Infrastructure\\Migrations\\20260415120559_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\PatientsAPI.Infrastructure\\Migrations\\20260415120559_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Infrastructure\\Migrations\\20260415120559_InitialCreate.cs",
+              "RelativeToolTip": "..\\PatientsAPI.Infrastructure\\Migrations\\20260415120559_InitialCreate.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T12:07:19.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAkwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T22:43:57.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SwaggerExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI\\SwaggerExtensions.cs",
+              "RelativeDocumentMoniker": "SwaggerExtensions.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI\\SwaggerExtensions.cs",
+              "RelativeToolTip": "SwaggerExtensions.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAkwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T09:12:14.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ApiExceptionFilterAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI\\ApiExceptionFilterAttribute.cs",
+              "RelativeDocumentMoniker": "ApiExceptionFilterAttribute.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI\\ApiExceptionFilterAttribute.cs",
+              "RelativeToolTip": "ApiExceptionFilterAttribute.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAkwD8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T09:25:35.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PatientsController.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI\\Controllers\\PatientsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PatientsController.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI\\Controllers\\PatientsController.cs",
+              "RelativeToolTip": "Controllers\\PatientsController.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAYwKgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T09:14:22.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PatientsAPI.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Application\\PatientsAPI.Application.csproj",
+              "RelativeDocumentMoniker": "..\\PatientsAPI.Application\\PatientsAPI.Application.csproj",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Application\\PatientsAPI.Application.csproj",
+              "RelativeToolTip": "..\\PatientsAPI.Application\\PatientsAPI.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-13T13:07:29.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PatientsAPI.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Infrastructure\\PatientsAPI.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "..\\PatientsAPI.Infrastructure\\PatientsAPI.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Infrastructure\\PatientsAPI.Infrastructure.csproj",
+              "RelativeToolTip": "..\\PatientsAPI.Infrastructure\\PatientsAPI.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-14T22:08:59.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-15T09:23:01.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PatientsAPI.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Domain\\PatientsAPI.Domain.csproj",
+              "RelativeDocumentMoniker": "..\\PatientsAPI.Domain\\PatientsAPI.Domain.csproj",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI.Domain\\PatientsAPI.Domain.csproj",
+              "RelativeToolTip": "..\\PatientsAPI.Domain\\PatientsAPI.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-13T11:57:41.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-15T09:12:44.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\adm\\Documents\\GitHub\\PatientsAPI\\PatientsAPI\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAiwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T22:50:51.935Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
